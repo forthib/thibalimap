@@ -1,0 +1,28 @@
+{
+  "name": "thibalimap",
+  "version": "1.0.0",
+  "description": "Maps for thibali.fr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forthib/thibalimap.git"
+  },
+  "author": "Thibaud Fortuna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forthib/thibalimap/issues"
+  },
+  "homepage": "https://github.com/forthib/thibalimap#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "geojson-polyline": "^1.0.0",
+    "ol": "^5.1.3"
+  }
+}
